@@ -31,7 +31,7 @@ function TodoForm(props) {
   return (
     <form className='todo-form' onSubmit={handleSubmit}>
       <input type='text'
-      placeholder='Add a Todo'
+      placeholder='Adicione uma tarefa'
       value={input}
       name='text'
       className='todo-input'
@@ -39,7 +39,7 @@ function TodoForm(props) {
       ref={inputRef}
       />
 
-      <button className='todo-button'>Add a ToDo</button>
+      <button className='todo-button'>Adicionar</button>
     </form>
 
   )
